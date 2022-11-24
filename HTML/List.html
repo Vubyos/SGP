@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/styleIndex.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Listagem - SGP</title>
+
+    
+
+</head>
+<body>
+    <div class="page">
+        <div class="navbar">
+                <ul class="navstyle">
+                    <li onclick="location.href = '../HTML/initPage.html';" style="margin-left: 2rem ;width: 10rem;">Calendário</li>
+                    <li style="margin-left: 2rem ;width: 10rem;">Salas/Turmas</li>
+                    <li style="margin-left: 2rem ;width: 10rem;">Sair</li>
+                    <img src="/IMG/userIcon.png" alt="Icone Usuário" style="width: 42px; margin-left: 45rem; margin-right: 1rem;">
+                    <h3 class="user">Ricardo.j.costa</h3>
+                </ul>
+        </div>
+        <div class="titleDay">
+            <h1>Quinta-feira - Noturno</h1>
+        </div>
+        <div class="data">
+            <input type="date" placeholder="Data:" class="datainput">
+            <input list="turnos" class="inputTurnos" placeholder="Turnos">
+            <datalist id="turnos">
+                <option value="Matutino">
+                <option value="Vespertino">
+                <option value="Noturno">
+              </datalist>
+            </div>
+        </div>
+        <div class="table">
+          <table>
+            <thead class="tableHead">
+                <tr>
+                  <th class="linhaTabela">Salas</th>
+                  <th class="linhaTabela">Turmas</th>
+                  <th class="linhaTabela">Professores</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <th class="linhaTabela2">502</th>
+                  <th class="linhaTabela2">Técnico em informática para Internet</th>
+                  <th class="linhaTabela2">Ricardo José Costa</th>
+                </tr>
+                <tr>
+                  <th class="linhaTabela2">502</th>
+                  <th class="linhaTabela2">Técnico em informática para Internet</th>
+                  <th class="linhaTabela2">Ricardo José Costa</th>
+                </tr>
+                <tr>
+                  <th class="linhaTabela2">502</th>
+                  <th class="linhaTabela2">Técnico em informática para Internet</th>
+                  <th class="linhaTabela2">Ricardo José Costa</th>
+                </tr>
+                <tr>
+                  <th class="linhaTabela2">502</th>
+                  <th class="linhaTabela2">Técnico em informática para Internet</th>
+                  <th class="linhaTabela2">Ricardo José Costa</th>
+                </tr>
+                <tr>
+                  <th class="linhaTabela2">502</th>
+                  <th class="linhaTabela2">Técnico em informática para Internet</th>
+                  <th class="linhaTabela2">Ricardo José Costa</th>
+                </tr>
+            </tbody>
+          </table>
+        </div>
+        <footer class="finalPage">
+
+        </footer>
+    </div>
+</body>
+</html>

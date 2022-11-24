@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+
+}
+
+.navstyle{
+    font-style: oblique;
+    display: flex;
+    list-style: none;
+    line-height: 4rem;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #D9D9D9;
+}
+
+.titleDay{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.datainput{
+    background-color: #D9D9D9;
+    border: none;
+    width: 19rem;
+    height: 2rem;
+    margin-top: 4rem;
+    margin-left: 2rem;  
+    display: flex;
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.iconeListagem{
+    display: flex;
+}
+
+.turno {
+    border: none;
+    width: 19rem;
+    height: 2rem;
+    margin-top: 3.3rem;
+    margin-left: 3rem;
+}
+
+.inputTurnos {
+    border: none;
+    background-color: #D9D9D9;
+    width:19.5rem;
+    height: 2rem;
+    margin-left: 3rem;
+    margin-top: 4rem;
+    padding-left: 1rem;
+}
+
+.table{
+    width: 54rem;
+    margin-left: 10rem;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.tableHead{
+    background-color: gray;
+    line-height: 5rem;
+}
+
+.tableHead table th tr{
+    width: 2rem;
+}
+
+.linhaTabela{
+    width: 50rem;
+}
+
+.linhaTabela2{
+    padding: 1.2rem;
+    justify-content: center;
+    font-weight: normal;
+    height: 83.34px;
+    background-color: #D9D9D9;
+}
+
+.finalPage{
+    margin-top: 5rem;
+}
+
+.table{
+    width: 50rem;
+    text-align: center;
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 45rem;
+}
+
+.data{
+    margin-bottom: 2rem;
+    height: 2rem;
+    display: flex;
+}
+
+.project{
+    margin-top: 4.2rem;
+    margin-left: 3.1rem;
+}
+
+.twoInput{
+    margin-bottom: 2rem;
+    height: 2rem;
+    display: flex;
+}
+
+.threeInput{
+    height: 2rem;
+    display: flex;
+}
+
+
+.turma{
+    margin-top: 4.2rem;
+    margin-left: 3.5rem;
+}
+
+.atividade{
+    margin-top: 4.2rem;
+    margin-left: 1.7rem;
+}
+
+.colaboradorAndPeriod{
+    display: flex;
+}
+
+.table1{
+    margin-left: 41rem;
+}
+
+.table2{
+    margin-left: 4rem;
+    height: 5rem;
+}
