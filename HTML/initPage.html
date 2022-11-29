@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/styleInitPage.css">
+    <link rel="stylesheet" href="/CSS/CSS/styleInitPage.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
@@ -18,10 +18,20 @@
       <div class="page">
       <div class="navbar">
               <ul class="navstyle">
-                  <li onclick="location.href = '../HTML/initPage.html';" style="margin-left: 2rem ;width: 10rem;">Calendário</li>
-                  <li onclick="location.href = '../HTML/List.html';" style="margin-left: 2rem ;width: 10rem;">Salas/Turmas</li>
-                  <li on style="margin-left: 2rem ;width: 10rem;">Sair</li>
-                  <img src="/IMG/userIcon.png" alt="Icone Usuário" style="width: 42px; margin-left: 45rem; margin-right: 1rem;">
+                  <li onclick="location.href = '../HTML/initPage.html';" style="margin-left: 2rem ;width: 10rem;" class="calendario">Calendário</li>
+                  <li onclick="location.href = '../HTML/List.html';" style="margin-left: 2rem ;width: 10rem; margin-right: 2rem;" class="salasTurmas">Salas/Turmas</li>
+                  <div class="dropdown">
+                    <button class="dropbtn">Listar
+                      <i class="fa fa-caret-down" style="margin-left: 2rem ;width: 10rem;"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="/HTML/listColab.html">Colaboradores</a>
+                      <a href="/HTML/listClass.html">Turmas</a>
+                      <a href="/HTML/listProject.html">Projetos</a>
+                    </div>
+                  </div>
+                  <li on style="margin-left: 2rem ;width: 10rem;" class="sair">Sair</li>
+                  <img src="/IMG/userIcon.png" alt="Icone Usuário" style="width: 42px; margin-left: 38rem; margin-right: 1rem;">
                   <h3 class="user">Ricardo.j.costa</h3>
               </ul>
       </div>
@@ -262,5 +272,6 @@
 
         </footer>
     </div>
+    <script src="/JS/initPage.js"></script>
 </body>
 </html>

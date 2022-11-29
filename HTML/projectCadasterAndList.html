@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,200;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/CSS/main.css">
+    <link rel="stylesheet" href="/CSS/CSS/button.css">
+    <link rel="stylesheet" href="/CSS/CSS/records.css">
+    <link rel="stylesheet" href="/CSS/CSS/modal.css">
+    <script src="main.js" defer></script>
+    <title>CRUD</title>
+</head>
+<body>
+    <header>
+        <h1 class="header-title">Cadastro de Projetos</h1>
+    </header>
+    <main>
+        <button type="button" class="button blue mobile" id="cadastrarCliente">Cadastrar Projeto</button>
+        <table class="records">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Quantidade</th>
+                    <th>Modelo</th>
+                    <th>Valor</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Parafuso</td>
+                    <td>15 unidades</td>
+                    <td>Polca</td>
+                    <td>44333</td>
+                    <td>
+                        <button type="button" class="button green">editar</button>
+                        <button type="button" class="button red">excluir</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Porca</td>
+                    <td>27 unidades</td>
+                    <td>Fina</td>
+                    <td>43442</td>
+                    <td>
+                        <button type="button" class="button green">editar</button>
+                        <button type="button" class="button red">excluir</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Disjuntor</td>
+                    <td>2 unidades</td>
+                    <td>Elétrico</td>
+                    <td>55478</td>
+                    <td>
+                        <button type="button" class="button green">editar</button>
+                        <button type="button" class="button red">excluir</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <nav>
+                        <ul>
+                            <li>Home</li>
+                        </ul>
+                    </nav>
+               
+                </header>
+                <form class="modal-form">
+                    <input type="text" class="modal-field" placeholder="Nome do Produto">
+                    <input type="email" class="modal-field" placeholder="Quantidade do Produto">
+                    <input type="text" class="modal-field" placeholder="Modelo do Produto">
+                    <input type="text" class="modal-field" placeholder="Categoria do Produto">
+                </form>
+                <footer class="modal-footer">
+                    <button class="button green">Salvar</button>
+                    <button class="button blue">Cancelar</button>
+                </footer>
+            </div>
+        </div>
+    </main>
+    <footer>
+        &copy; Douglas Melere Tibola Junior
+    </footer>
+</body>
+</html>
