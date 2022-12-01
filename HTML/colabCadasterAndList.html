@@ -10,12 +10,29 @@
     <link rel="stylesheet" href="/CSS/CSS/button.css">
     <link rel="stylesheet" href="/CSS/CSS/records.css">
     <link rel="stylesheet" href="/CSS/CSS/modal.css">
+    <link rel="stylesheet" href="/CSS/CSS/colabCadaster.css">
     <title>CRUD</title>
-</head>
+   </head>
 <body>
-    <header>
-        <h1 class="header-title">Colaboradores</h1>
-    </header>
+    <div class="navbar">
+        <ul class="navstyle">
+            <li onclick="location.href = '../HTML/initPage.html';" style="margin-left: 2rem ;width: 10rem;" class="calendario">Calendário</li>
+            <li onclick="location.href = '../HTML/List.html';" style="margin-left: 2rem ;width: 10rem; margin-right: 2rem;" class="salasTurmas">Salas/Turmas</li>
+            <div class="dropdown">
+              <button class="dropbtn">Listar
+                <i class="fa fa-caret-down" style="margin-left: 2rem ;width: 10rem;"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="/HTML/colabCadasterAndList.html">Colaboradores</a>
+                <a href="/HTML/classesCadasterAndList.html">Turmas</a>
+                <a href="/HTML/projectCadasterAndList.html">Projetos</a>
+              </div>
+            </div>
+            <li on style="margin-left: 2rem ;width: 10rem; cursor: pointer;" class="sair">Sair</li>
+            <img src="/IMG/userIcon.png" alt="Icone Usuário" style="width: 42px; margin-left: 38rem; margin-right: 1rem;">
+            <h3 class="user">Ricardo.j.costa</h3>
+        </ul>
+</div>
     <main>
         <button type="button" class="button blue mobile" id="cadastrarCliente">Cadastrar Colaborador</button>
         <table class="records">
@@ -64,14 +81,14 @@
         <div class="modal" id="modal">
             <div class="modal-content">
                 <header class="modal-header">
-                    <h2>Novo Cliente</h2>
+                    <h2>Novo Colaborador</h2>
                     <span class="modal-close" id="modalClose">&#10006;</span>
                 </header>
                 <form class="modal-form">
-                    <input type="text" class="modal-field" placeholder="Nome do Cliente">
-                    <input type="email" class="modal-field" placeholder="e-mail do Cliente">
-                    <input type="text" class="modal-field" placeholder="Celular do Cliente">
-                    <input type="text" class="modal-field" placeholder="Cidade do Cliente">
+                    <input type="text" class="modal-field" placeholder="Nome do Colaborador">
+                    <input type="email" class="modal-field" placeholder="E-mail do Colaborador">
+                    <input type="text" class="modal-field" placeholder="Celular do Colaborador">
+                    <input type="text" class="modal-field" placeholder="Cidade do Colaborador">
                 </form>
                 <footer class="modal-footer">
                     <button class="button green">Salvar</button>
